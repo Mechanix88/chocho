@@ -1,0 +1,161 @@
+.accordeon
+    position: 
+    background-image: url("./../img/bg/accordeon-bg.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+    font-family: "Alegreya Sans"
+    position: relative
+    z-index: -2
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        z-index: -1
+        background-color: rgba(0%, 0%, 0%, 0.2)
+    &:after
+        content: ""
+        background-image: url("./../img/bg/accordeon-berry.png")
+        background-repeat: no-repeat
+        left: 35px
+        top: -63px  
+        width: 104px
+        height: 114px
+        display: block
+        position: absolute
+        z-index: 1
+    
+ 
+
+    
+.menu-title
+    color: #ffffff
+    font-family: "Alegreya Sans"
+    font-size: 48px
+    font-weight: 700
+    text-transform: uppercase
+    padding-left: 80px
+    padding-top: 105px
+    margin: 0
+
+
+.accordeon__wrapper
+    position: absolute
+    right: 0
+    top: 0
+    height: 100vh
+
+.accordeon__list
+
+    list-style: none
+    padding: 0
+    margin: 0
+    display: flex
+
+.accordeon__item
+    display: flex
+    justify-content: flex-start
+    padding-bottom: 20px
+    cursor: pointer
+    transition: 1s
+    
+    
+
+.accordeon__item--bg1
+    background-image: url(./../img/bg/accordeon-bg-1.jpg)
+    width: 100px
+    height: 100vh
+    background-size: cover
+    background-repeat: no-repeat
+    
+
+
+
+.accordeon__item--bg2
+    background-image: url(./../img/bg/accordeon-bg-2.jpg)
+    width: 100px
+    height: 100vh
+    background-size: cover
+    background-repeat: no-repeat
+    
+  
+
+.accordeon__item--bg3
+    background-image: url(./../img/bg/accordeon-bg-3.jpg)
+    width: 100px
+    height: 100vh
+    background-repeat: no-repeat
+    background-size: cover
+    
+    
+    
+    
+.accordeon__link
+    color: #ffffff
+    font-family: Gagalin
+    font-size: 40px
+    font-weight: 400
+    line-height: 63.75px
+    writing-mode: vertical-lr
+    border: none
+    outline: none
+    padding: 0
+    
+
+
+
+
+.accordeon__desc
+    max-width: 630px
+    color: #ffffff
+    font-family: "Alegreya Sans"
+    font-size: 16px
+    font-weight: 400
+    line-height: 23.97px
+    margin: 0 auto
+    padding-top: 60px
+    background: rgba(0, 0, 0, 0.75)
+    width: 0px
+    overflow: hidden
+    height: 100vh
+
+.accordeon__subtitle 
+    display: flex
+    writing-mode: vertical-lr
+    align-items: flex-end
+    height: 100%
+    padding-top: 20px
+    width: 100%
+    align-items: center
+    transform: rotate(180deg)
+    font-family: "Alegreya Sans"
+    font-size: 48px
+    font-weight: 500
+    position: relative
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        z-index: -1
+        background-color: rgba(0%, 0%, 0%, 0.6)
+
+
+.accordeon__text
+    padding-left: 25px
+    padding-top: 55px
+    padding-right: 127px
+    text-align: left
+    margin: 0
+
+.accordeon-open
+    width: 100%
+
+    
+
+    
+ 

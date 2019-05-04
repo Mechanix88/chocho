@@ -1,0 +1,132 @@
+.map {
+  position: relative;
+  font-family: "Alegreya Sans";
+  font-size: 1.3125rem;
+  font-weight: 400;
+  background-image: url("./../img/bg/map.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer {
+  position: absolute;
+  background-color: #ffffff;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.3125rem;
+}
+
+.footer-wrapper {
+  max-width: 58.75rem;
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  min-height: 5.8125rem;
+}
+
+.contact {
+  width: 60%;
+  color: #010101;
+  font-size: 1.3125rem;
+  line-height: 1.5rem;
+}
+
+.social {
+  width: 40%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social__list li:first-child {
+  padding-left: 0px;
+}
+
+.social__item {
+  display: flex;
+  align-items: center;
+  padding-left: 1.25rem;
+}
+
+.social__link--vk {
+  background-image: url("./../img/icons/vk.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 13px;
+  width: 23px;
+  display: block;
+  opacity: 0.3;
+  transition: 1s;
+}
+
+.social__link--facebook {
+  background-image: url("./../img/icons/fb.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+  display: block;
+  opacity: 0.3;
+  transition: 1s;
+}
+
+.social__link--insta {
+  background-image: url("./../img/icons/inst.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+  display: block;
+  opacity: 0.3;
+  transition: 1s;
+}
+
+.social__link--twitter {
+  background-image: url("./../img/icons/twitter.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 16px;
+  width: 20px;
+  display: block;
+  opacity: 0.3;
+  transition: 1s;
+}
+
+.social__link:hover {
+  opacity: 1;
+}
+
+.contact__link {
+  line-height: 1.875rem;
+  text-transform: uppercase;
+  color: #0f5a47;
+  text-decoration: none;
+  position: relative;
+  padding-left: 1.25rem;
+  font-family: "Alegreya Sans";
+  font-size: 1.3125rem;
+}
+
+.contact__link::after {
+  content: "";
+  position: absolute;
+  background-image: url("./../img/icons/footer-phone-icon.png");
+  height: 11px;
+  width: 12px;
+  left: 0;
+  top: 6px;
+}

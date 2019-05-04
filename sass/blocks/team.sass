@@ -1,0 +1,97 @@
+.team
+    position: relative
+    &:before
+        content: ""
+        background-image: url("./../img/bg/berry-bg-team.png")
+        background-repeat: no-repeat
+        right: 10px
+        top: -63px  
+        width: 135px
+        height: 112px
+        display: block
+        position: absolute
+        z-index: 1
+    &:after
+        content: ""
+        background-image: url("./../img/bg/bg-team.png")
+        background-repeat: no-repeat
+        top: -240px
+        right: 0px  
+        width: 196px
+        height: 578px
+        display: block
+        position: absolute 
+        z-index: 0
+    
+.team-wrapper
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    font-family: "Alegreya Sans"
+
+.team__title
+    text-align: center
+    color: #0d0d0d
+    font-size: 3rem
+    font-weight: 700
+    text-transform: uppercase
+
+.team__list
+    margin: 0
+    padding: 0
+    display: flex
+    list-style: none
+    text-align: center
+    justify-content: space-between
+
+.team__item
+    display: flex
+    flex-direction: column
+    max-width: 25%
+    padding-right: 0.9375rem
+    &:last-child
+        padding-right: 0
+
+.team__item--padding
+    padding-top: 3.125rem
+
+.team__img
+    width: 100%
+
+.team__name
+    color: #323232
+    font-size: 1.3125rem
+    font-weight: 500
+    position: relative
+    margin-top: 1.25rem
+    margin-bottom: 0.625rem
+    width: fit-content
+    margin-left: auto
+    margin-right: auto
+    &:after
+        content: ""
+        border: 5px solid transparent
+        border-top: 7px solid #0f5a47
+        position: absolute
+        right: -16px
+        top: 11px
+
+
+.team-dropdown__name
+    color: #281e1e
+    font-size: 1.125rem
+    font-weight: 400
+    margin-top: 0
+    margin-bottom: 0.3125rem
+    
+
+.team-dropdown__desc
+    color: #666666
+    font-size: 1.125rem
+    font-weight: 300
+    margin: 0
+
+.team-dropdown
+    height: 0
+    overflow: hidden

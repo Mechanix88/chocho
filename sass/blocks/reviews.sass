@@ -1,0 +1,123 @@
+.reviews
+    font-family: "Alegreya Sans"
+    position: relative
+    &:before
+        content: ""
+        background-image: url("./../img/bg/reviews-berry.png")
+        background-repeat: no-repeat
+        right: 10px
+        top: 10px  
+        width: 173px
+        height: 99px
+        display: block
+        position: absolute
+        z-index: 2
+    &:after
+        content: ""
+        background-image: url("./../img/bg/bg-reviews.png")
+        background-repeat: no-repeat
+        bottom: -180px
+        left: 0px  
+        width: 134px
+        height: 422px
+        display: block
+        position: absolute 
+        z-index: -1
+
+    
+    
+    .berry-bg
+        position: absolute
+        background-image: url("./../img/bg/berry-reviews2.png")
+        left: 0
+        bottom: -100px
+        width: 154px
+        height: 220px
+        z-index: 1
+
+.reviews__title
+    color: #0d0d0d
+    font-size: 3rem
+    font-weight: 700
+    text-transform: uppercase
+    text-align: center
+    
+    
+.reviews__card
+    display: flex
+    background-image: url("./../img/bg/card-bg.png"),
+    url("./../img/bg/reviews-bg.jpg")
+    background-repeat: no-repeat
+    background-position: right top
+    min-height: 21.875rem
+    align-items: center 
+    box-shadow: 0px 13px 30px 0px rgba(145, 169, 157, 0.17)
+ 
+
+
+
+.reviews__text-block
+    display: flex
+    flex-direction: column
+    margin-left: 1.125rem
+       
+
+.reviews__subtitle
+    color: #323232
+    font-size: 1.875rem
+    font-weight: 500
+
+.reviews__text
+    color: #666666
+    font-size: 1.125rem
+    font-weight: 400
+    max-width: 450px
+
+.reviews__name
+    color: #666666
+    font-size: 1.125rem
+    font-weight: 500
+
+.reviews__avatar
+    padding-left: 2.8125rem
+
+.reviews__block
+    background-image: url("./../img/bg/card-bg.png")
+    background-repeat: no-repeat
+    background-position: right top
+
+.reviews-switch
+    display: flex
+    width: 100%
+
+.reviews-switch__list
+    margin: 0
+    padding: 0
+    display: flex
+    list-style: none
+    width: 100%
+    justify-content: center
+    margin-top: 2.5rem
+    
+
+.reviews-switch__item
+    width: 5.875rem
+    height: 6rem
+    border-radius: 50%
+    background-color: #efefef
+    margin-right: 2.5rem
+    &:last-child
+        margin: 0
+.reviews-switch__item--active
+    border: 8px solid #0f5a47
+.reviews-switch__img
+    border-radius: 50%
+
+.reviews-wrapper
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    
+   
+

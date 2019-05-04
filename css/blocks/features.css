@@ -1,0 +1,126 @@
+.features {
+  font-family: "Alegreya Sans";
+  background-image: url("./../img/bg/features-bg.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  position: relative;
+}
+
+.features:after {
+  content: "";
+  background-image: url("./../img/bg/berry-bg-features.png");
+  left: 0;
+  bottom: -115px;
+  width: 161px;
+  height: 315px;
+  position: absolute;
+}
+
+.features-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.features__title {
+  color: #0d0d0d;
+  font-family: "Alegreya Sans";
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.features__title-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features__subtitle {
+  color: #666666;
+  font-family: "Alegreya Sans";
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.features__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.features__item {
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  position: relative;
+  margin-right: 5rem;
+}
+
+.features__item:before {
+  content: "";
+  position: absolute;
+  background-image: url("./../img/icons/features-circle.png");
+  right: -80px;
+  top: 54px;
+  width: 67px;
+  height: 21px;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.features__item:last-child:before {
+  content: "";
+  display: none;
+}
+
+.features__item:last-child {
+  margin: 0;
+}
+
+.features__icon {
+  width: 125px;
+  height: 125px;
+  background-color: #f2f5f4;
+  border-radius: 50%;
+}
+
+.features__icon--useful {
+  background-image: url("./../img/icons/useful.svg");
+  background-repeat: no-repeat;
+  background-size: 66px 69px;
+  background-position: center;
+}
+
+.features__icon--tasty {
+  background-image: url("./../img/icons/tasty.svg");
+  background-repeat: no-repeat;
+  background-size: 70px 69px;
+  background-position: center;
+}
+
+.features__icon--nutrient {
+  background-image: url("./../img/icons/nutrient.svg");
+  background-repeat: no-repeat;
+  background-size: 75px 64px;
+  background-position: center;
+}
+
+.features__text {
+  color: #000000;
+  font-size: 1.6875rem;
+  font-weight: 700;
+}
+
+.features__desc {
+  color: #666666;
+  font-family: "Alegreya Sans";
+  font-size: 1.125rem;
+  font-weight: 300;
+}
